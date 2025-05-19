@@ -1,18 +1,23 @@
-## Getting Started
+# Tipos e Variáveis
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Tipos de dados
 
-## Folder Structure
+No Java, existem algumas palavras reservadas para a representação dos tipos de dados básicos que precisam ser manipulados para a construção de programas. Estes tipos de dados são conhecidos como **tipos primitivos** (*Primitive types*).
 
-The workspace contains two folders by default, where:
+Os oito tipos primitivos em Java são: `int`, `byte`, `short`, `long`, `float`, `double`, `boolean` e `char` - esses tipos não são considerados objetos e, portanto representam valores brutos. Eles são armazenados diretamente na pilha de memória. (*Memory Stack*).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Declaração de variáveis
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Variável é uma identificação de um espaço em memória utilizado pelo nosso programa.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+A estrutura padrão para se declarar uma variável sempre é:
 
-## Dependency Management
+```
+<Tipo> <nomeVariavel> <atribuicaoDeValor (Opcional)>
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Variáveis e constantes
+
+Uma **variável** é uma área da memória, associada a um nome, que pode armazenar valores de um determinado tipo, cujo **valor pode variar**.
+
+Já as **constantes** são valores armazenados em memória **que não podem ser modificados** depois de declarados. Em Java, esses valores são representados pela palavra reservada `final`.
