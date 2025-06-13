@@ -33,6 +33,7 @@ replay_pid*
 tipos-variaveis/.vscode/settings.json
 operadores/.vscode/settings.json
 metodos/.vscode/settings.json
+escopo/.vscode/settings.json
 
 # Local History for Visual Studio Code
 .history/
