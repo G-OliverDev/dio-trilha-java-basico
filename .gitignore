@@ -36,6 +36,8 @@ metodos/.vscode/settings.json
 escopo/.vscode/settings.json
 palavras-reservadas/.vscode/settings.json
 java-doc/.vscode/settings.json
+terminal-e-argumentos/.vscode/settings.json
+terminal-e-argumentos/.vscode/launch.json
 
 # Local History for Visual Studio Code
 .history/
